@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<style>
+		body{
+			padding:0;
+			margin:0;
+		}
+		.gridwrapper{
+			overflow:hidden;
+		}
+		.gridbox{
+			float:left;
+			margin:0.67rem;
+		}
+		.head{
+			width:100%;
+			height:5.5rem;
+			background-color:#F1F1F1;
+			border:1px solid #E9E9E9;
+			padding-left:1.2%;
+		}
+		h1{
+
+		}
+		.gridmenu{
+			width:19.9%;			
+		}
+		.menuitem{
+			border-bottom: 1px solid #E9E9E9;
+			padding-top:6%;
+			padding-bottom:4%;
+			cursor:pointer;
+		}
+		.gridmain{
+			width:53%;
+		}
+		.gridmain img{
+			width:80%;
+		}
+		.gridright{
+			width:19.9%;
+			padding:1%;
+			background-color:#CDF0F6;
+		}
+		.gridfooter{
+			font-size:0.5rem;
+			text-align:center;
+			float:left;
+			width:100%;
+			background-color:#F1F1F1;
+			border:1px solid #E9E9E9;
+		}
+		@media only screen and (max-width: 500px){
+			.gridmenu{
+				width:100%;
+			}
+			.gridmain{
+				width:100%;
+			}
+			.gridright{
+				width:100%;
+			}
+			.gridfooter{
+				width:100%;
+			}
+		}
+	</style>
+	<body>
+		<div class="whole">
+			<div class="gridwrapper">
+				<div class="gridbox head">
+					<h1>The Pulpit Rock</h1>
+				</div>
+				<div class="gridbox gridmenu">
+					<div class="menuitem">The Drive</div>
+					<div class="menuitem">The Walk</div>
+					<div class="menuitem">The Return</div>
+					<div class="menuitem">The End</div>
+				</div>
+				<div class="gridbox gridmain">
+					<h1>The Walk</h1>
+					<p>
+						The walk to the Pulpit Rock will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.
+					</p>
+					<img src="833e0eff3c9f0117f6a0c54a8d8533f2.jpg" >
+				</div>
+				<div class="gridbox gridright">
+					<h1>What?</h1>
+					<p>The Pulpit Rock is a part of a mountain that looks like a pulpit.</p>
+					<h1>Where?</h1>
+					<p>The Pulpit Rock is in Norway</p>
+					<h1>Price?</h1>
+					<p>The walk is free!</p>
+				</div>
+				<div class="gridbox gridfooter">
+					<p>This web page is a part of a demonstration of fluid web design made by www.w3schools.com. Resize the browser window to see the content response to the resizing.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
